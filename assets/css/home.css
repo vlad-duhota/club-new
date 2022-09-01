@@ -1,0 +1,60 @@
+.last-projects__title{
+  font-weight: 400;
+  text-align: center;
+  padding-top: 32px;
+  margin-top: 32px;
+  border-top: 1px solid #000;
+}
+
+.last-projects{
+  margin-top: 32px;
+}
+
+.last-projects .container{
+  padding-bottom: 32px;
+  border-bottom: 1px solid #000;
+}
+
+
+.last-projects__list {
+  margin-top: 32px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  row-gap: 53px;
+  -webkit-column-gap: 15px;
+          column-gap: 15px;
+  padding-bottom: 45px;
+}
+
+
+@media (max-width: 578px) {
+  .last-projects__list {
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 930px) {
+  .last-projects__list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 25px;
+  }
+}
+
+.last-projects .card {
+  max-width: 290px;
+}
+
+@media (max-width: 635px) {
+  .last-projects .card {
+    max-width: 100%;
+  }
+}
